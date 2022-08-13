@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fulbion | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <div class="logo">
+                <img src="img/fulbion.jpg" alt="Mon logo" width="40" height="40">
+                <pre>   </pre>
+                <span class="logo">Fulbion<b>.eu</b></span>
+            </div>
+            <section class="nav">
+                <ul>
+                    <li>
+                        <a href="#">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="">À propos</a>
+                    </li>
+                    <li>
+                        <a href="">Mes projets</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="links">
+                <a class="youtube" href="https://www.youtube.com/c/Fulbion"><i class="fa fa-youtube-play"></i></a>
+                <a class="soundcloud" href="https://soundcloud.com/Fulbion"><i class="fa fa-soundcloud"></i></a>
+                <a class="github" href="https://github.com/Fulbion"><i class="fa fa-github"></i></a>
+            </section>
+        </nav>
+        <section class="wrapper">
+            <div class="column column-1">
+                <span class="topline">Bienvenue !</span><br>
+                <h1>Je suis <span class="multitext"></span></h1><br>
+                <p>
+                    Moi c'est Fulbion ! J'aime la programmation, le montage vidéo, le beatmaking, et tout un tas d'autres trucs divers qu'on peut faire sur un PC.<br><br>
+                    Je loue mes services : vous pouvez donc me demander de <u>monter</u> une vidéo, <u>composer</u> un beat, <u>créer</u> un site web, etc.
+                </p>
+                <div class="buttons">
+                    <button><i class="fa fa-file-text"></i> Téléchargez mon CV !</button>
+                    <button><i class="fa fa-paypal"></i> Faites un don !</button>
+                </div>
+            </div>
+            <div class="column culumn-2">
+                <div class="image-box">
+                    <img src="img/yellow-splash.png" alt="" id="splash">
+                    <img src="img/fulbion.png" alt="Mon avatar (et mon skin Minecraft)" id="fulbion">
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multitext", {
+            strings: ["développeur", "monteur", "beatmaker"],
+            loop: true,
+            typeSpeed: 120,
+            backSpeed: 80,
+            backDelay: 1000
+        });
+    </script>
+</body>
+</html>
